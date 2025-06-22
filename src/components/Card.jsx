@@ -14,7 +14,7 @@ const Card = ({data, reference}) => {
         <p className='text-sm leading-tight mt-5 font-semibold'>{data.desc}</p>
 
         <div className='footer absolute bottom-0 w-full  left-0 '>
-            <div className='flex items-center justify-between px-8 lpy-3 mb-5'>
+            <div className='flex items-center justify-between px-8 py-3 mb-5'>
                 <h5>{data.filesize}</h5>
                 <span className='w-7 h-7 bg-zinc-600 rounded-full flex items-center justify-center'>
                     {data.close ? <IoMdClose /> : <MdOutlineFileDownload size= ".7em" color='#fff'/>}
